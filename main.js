@@ -19,3 +19,5 @@ export function createApp() {
   }
 }
 // #endif
+
+// import 'animate.css'

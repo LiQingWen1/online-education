@@ -1,6 +1,6 @@
 {
-    "name" : "uni-app",
-    "appid" : "__UNI__70A039F",
+    "name" : "demo",
+    "appid" : "",
     "description" : "",
     "versionName" : "1.0.0",
     "versionCode" : "100",
@@ -68,13 +68,5 @@
     "uniStatistics" : {
         "enable" : false
     },
-    "vueVersion" : "2",
-    "h5" : {
-        "devServer" : {
-            "port" : 9999
-        },
-        "router" : {
-            "base" : "./"
-        }
-    }
+    "vueVersion" : "2"
 }
