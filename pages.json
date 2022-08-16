@@ -9,7 +9,7 @@
 			}
 		}
 	    ,{
-            "path" : "pages/study/study",
+            "path" : "pages/learn/learn",
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "",
@@ -46,7 +46,7 @@
 				"iconPath": "static/tabbar/learn.png",
 				"selectedIconPath": "static/tabbar/learn_selected.png",
 				"text": "学习",
-				"pagePath": "pages/study/study"
+				"pagePath": "pages/learn/learn"
 			},{
 				"iconPath": "static/tabbar/home.png",
 				"selectedIconPath": "static/tabbar/home_selected.png",
