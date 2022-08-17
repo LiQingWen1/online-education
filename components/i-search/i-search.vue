@@ -1,11 +1,10 @@
 <template>
-	<view>
-		<view class="search">
-			<view class="search-item">
-				<uni-icons color="#928E8A" style='position: relative;top: 10px;' type="search" size="20"></uni-icons>
-				<view class="title ml-1 py-2">
-					请输入搜索关键词
-				</view>
+	<view class="search" @click="handlEvent">
+		<view class="search-item rounded-lg">
+			<uni-icons color="#928E8A" style='position: relative;top: 10px;' type="search" size="20" class="mt-1">
+			</uni-icons>
+			<view class="title ml-1 py-2">
+				请输入搜索关键词
 			</view>
 		</view>
 	</view>
@@ -18,6 +17,11 @@
 			return {
 
 			};
+		},
+		methods: {
+			handlEvent() {
+				this.$emit('click')
+			}
 		}
 	}
 </script>

@@ -1,20 +1,23 @@
 <template>
 	<view>
-		
+		6+66
 	</view>
 </template>
 
 <script>
 	export default {
-		name:"i-content",
 		data() {
 			return {
-				
+				value:''
 			};
+		},
+		methods:{
+			onChange(){},
+			onSearch(){},
+			onClick(){}
 		}
 	}
 </script>
 
-<style>
-
+<style lang="scss">
 </style>

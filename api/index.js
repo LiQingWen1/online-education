@@ -1,14 +1,27 @@
-import {http} from '@/utils/request.js'
+import
+Http
+from '@/utils/request.js'
 
-function getIndex(){
-	return http({url:'/index'})
+function getIndex() {
+	return Http.request({
+		url: '/index'
+	})
 }
 
-function getCoupon(){
-	return http({url:'/coupon'})
+function getCoupon() {
+	return Http.request({
+		url: '/coupon'
+	})
 }
 
-function getGroup(params){
-	return http({url:'/group',data:params})
+function getGroup(params) {
+	return Http.request({
+		url: '/group',
+		data: params
+	})
 }
-export {getIndex,getCoupon,getGroup}
+export {
+	getIndex,
+	getCoupon,
+	getGroup
+}
